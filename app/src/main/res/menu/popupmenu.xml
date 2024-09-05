@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_ras"
+        android:icon="@drawable/osnovnie"
+        android:title="Основные расходы"
+        />
+
+    <item
+        android:id="@+id/food_ras"
+        android:icon="@drawable/eda"
+        android:title="Еда и рестораны"/>
+
+    <item
+        android:id="@+id/enter_ras"
+        android:icon="@drawable/razvlecheniya"
+        android:title="Развлечения"/>
+
+    <item
+        android:id="@+id/move_ras"
+        android:icon="@drawable/transport"
+        android:title="Транспорт"
+        />
+
+    <item
+        android:id="@+id/health_ras"
+        android:icon="@drawable/zdorovie"
+        android:title="Здоровье"/>
+
+    <item
+        android:id="@+id/other_ras"
+        android:icon="@drawable/prochie"
+        android:title="Прочие расходы"/>
+
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="multi_item">
+        <item>собаки</item>
+        <item>кошки</item>
+        <item>мороженое</item>
+    </string-array>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Panel1Black">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/panel_with_categ"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:cardCornerRadius="14sp"
+            android:background="@color/black"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/second"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#121212"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/categ_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Выберете категорию"
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="17sp"
+                        android:padding="5dp"
+                        android:layout_marginStart="5dp"
+                        android:visibility="visible"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/choosen_categ"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:layout_marginStart="5dp"
+                        android:visibility="visible"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/categoria_rama"
+                        android:gravity="center_vertical"/>
+
+                    <ImageButton
+                        android:id="@+id/categ"
+                        android:layout_width="30.25dp"
+                        android:layout_height="30.25dp"
+                        android:padding="5dp"
+                        android:visibility="visible"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="7dp"
+                        android:background="@drawable/categoria_button_rama"
+                        android:src="@drawable/arrow_down"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/third"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#121212">
+
+                    <TextView
+                        android:id="@+id/input_summ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Введите сумму"
+                        android:textSize="17sp"
+                        android:padding="5dp"
+                        android:fontFamily="@font/montserrat"
+                        android:layout_marginStart="5dp"
+                        android:visibility="visible"
+                        android:textColor="@color/white"
+                        />
+
+                    <EditText
+                        android:id="@+id/summa"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:layout_marginStart="57dp"
+                        android:visibility="visible"
+                        android:textColor="@color/white"
+                        android:background="@drawable/categoria_rama"
+                        android:gravity="center_vertical"
+                        android:inputType="numberDecimal"
+                        />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/hi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#121212">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/purple_500"
+                            android:gravity="center"
+                            android:text="Добавить"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:textAllCaps="false"
+                            />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
