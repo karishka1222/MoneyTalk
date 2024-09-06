@@ -22,7 +22,6 @@ Any user can log into their account via Gmail, add income or expense transaction
 
 ## Demo
 
-<<<<<<< HEAD
 <img src="app/src/main/res/drawable/demo/demo.gif" width="200" />
 =======
 
