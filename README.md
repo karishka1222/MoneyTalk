@@ -22,7 +22,21 @@ Any user can log into their account via Gmail, add income or expense transaction
 
 ## Demo
 
+<<<<<<< HEAD
 <img src="app/src/main/res/drawable/demo/demo.gif" width="200" />
+=======
+
+## Authors
+
+### **🍓Team SOT🍓**
+
+Team members:
+* Arina Zimina - developer, teamleader
+* Karina Siniatullina - developer
+* Julia Chezryakova - editor
+* Irina Kolobova - designer
+
+>>>>>>> 6470c35f67de65fbff2319d9c7446aa47116d291
 
 ## Frameworks and technologies used
 
